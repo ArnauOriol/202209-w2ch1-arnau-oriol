@@ -1,0 +1,7 @@
+@use "../variables/colors-3cpc";
+
+.card-information {
+  display: flex;
+  flex-direction: column;
+  background-color: colors-3cpc.$color-first-section;
+}
