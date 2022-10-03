@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compilator": "sass src/sass/styles.scss css/styles.css",
+    "compilator": "sass src/sass/styles.scss public/css/styles.css",
     "compilator:dev": "sass --watch src/sass/styles.scss public/css/styles.css",
     "prepare": "husky install"
   },
