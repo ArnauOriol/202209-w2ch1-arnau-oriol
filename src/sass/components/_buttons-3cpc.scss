@@ -9,3 +9,17 @@ button {
   width: 9rem;
   border: none;
 }
+
+.button {
+  &--card1 {
+    color: colors-3cpc.$color-first-section;
+  }
+
+  &--card2 {
+    color: colors-3cpc.$color-second-section;
+  }
+
+  &--card3 {
+    color: colors-3cpc.$color-third-section;
+  }
+}

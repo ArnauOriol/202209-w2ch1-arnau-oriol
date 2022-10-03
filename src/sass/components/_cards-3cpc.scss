@@ -4,28 +4,31 @@ html {
   font-family: "Lexend Deca", sans-serif;
 }
 
-main {
-  margin: 5%;
-}
-
 .card-1 {
   background-color: colors-3cpc.$color-first-section;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  margin-top: 30px;
 }
 .card-2 {
   background-color: colors-3cpc.$color-second-section;
 }
 .card-3 {
   background-color: colors-3cpc.$color-third-section;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .card-information {
   display: flex;
   flex-direction: column;
+  width: 355px;
   gap: 3rem;
   padding: 3rem;
   color: #fff;
+  margin-right: 30px;
+  margin-left: 30px;
 
   &__icon {
     height: 40px;
