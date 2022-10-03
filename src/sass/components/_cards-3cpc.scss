@@ -4,16 +4,25 @@ html {
   font-family: "Lexend Deca", sans-serif;
 }
 
+main {
+  margin: 5%;
+}
+
+.card-1 {
+  background-color: colors-3cpc.$color-first-section;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-2 {
+  background-color: colors-3cpc.$color-second-section;
+}
+
 .card-information {
   display: flex;
   flex-direction: column;
   gap: 3rem;
   padding: 3rem;
-  background-color: colors-3cpc.$color-first-section;
   color: #fff;
-  margin: 5%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 
   &__icon {
     height: 40px;
