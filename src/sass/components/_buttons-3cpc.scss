@@ -8,5 +8,18 @@ button {
   height: 3rem;
   width: 9rem;
   border: none;
-  color: colors-3cpc.$color-first-section;
+}
+
+.button {
+  &--card1 {
+    color: colors-3cpc.$color-first-section;
+  }
+
+  &--card2 {
+    color: colors-3cpc.$color-second-section;
+  }
+
+  &--card3 {
+    color: colors-3cpc.$color-third-section;
+  }
 }
