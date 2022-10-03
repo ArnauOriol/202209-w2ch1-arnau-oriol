@@ -48,3 +48,22 @@ html {
     opacity: 0.7;
   }
 }
+
+@media (min-width: 1024px) {
+  .card-displayer {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+  }
+  .card-information {
+    margin: 0;
+  }
+  .card-1 {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+  .card-3 {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+}
